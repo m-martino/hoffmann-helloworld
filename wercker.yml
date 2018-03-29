@@ -25,6 +25,6 @@ deploy:
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
-        repository: m-martino/hoffmann-helloworld
+        repository: mmartino49/hoffmann-helloworld
         registry: https://registry.hub.docker.com
         entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
