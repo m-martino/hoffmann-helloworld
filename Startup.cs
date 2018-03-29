@@ -15,7 +15,7 @@ namespace HoffmanDotNetCore
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello, world!" + System.Environment.NewLine);
+                await context.Response.WriteAsync("Hello, world!!" + System.Environment.NewLine);
             });
         }
     }
