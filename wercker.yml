@@ -27,4 +27,4 @@ deploy:
         password: $PASSWORD
         repository: mmartino49/hoffmann-helloworld
         registry: https://registry.hub.docker.com/v2
-        entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
+        #entrypoint: "/pipeline/source/app/docker_entrypoint.sh"
